@@ -1,0 +1,323 @@
+body{
+    font-family: 'Akshar', sans-serif;
+    margin: 0;
+    background-color: black;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #121313;
+    align-items: center;
+    margin-bottom: 50px;
+    border-bottom: 3px solid black;
+    font-family: 'Akshar', sans-serif;
+}
+.logo{
+    width: 100px;
+}
+.amenu{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 15px;
+    font-family: 'Akshar', sans-serif;
+}
+
+.presentacion{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    
+    margin: auto;
+    border-radius: 0px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-image: url(cool-background.png);
+    font-family: 'Akshar', sans-serif;
+}
+.escritorio{
+    width: 400px;
+    border: 5px solid black;
+}
+.slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Akshar', sans-serif;
+}
+h1{
+    text-align: center;
+    
+    font-weight: 600;
+    font-family: 'Akshar', sans-serif;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Akshar', sans-serif;
+}
+.cotizacion{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    font-family: 'Akshar', sans-serif;
+}
+.servicios{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #C4DDE6;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 5px solid lightgray;
+    font-family: 'Akshar', sans-serif;
+}
+h3{
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    animation: cambiar-color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-family: 'Akshar', sans-serif;
+}
+.ventajas{
+    background: rgb(196,221,230);
+    background: linear-gradient(180deg, rgba(196,221,230,1) 36%, rgba(69,75,86,1) 83%);
+    display: flex;
+    width: 80%;
+    height: 400px;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 5px solid lightgray;
+    font-family: 'Akshar', sans-serif;
+}
+.ventajas2{
+    background: rgb(196,221,230);
+    background: linear-gradient(180deg, rgba(196,221,230,1) 36%, rgba(69,75,86,1) 83%);
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 1.8rem;
+    margin-bottom: 50px;
+    border: 5px solid lightgray;
+    font-family: 'Akshar', sans-serif;
+}
+.mitrabajo{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    height: 300px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 1.8rem;
+    text-align: center;
+    border: 3px solid #7d98a1;
+    align-items: center;
+    font-family: 'Akshar', sans-serif;
+    
+}
+.mitrabajo2{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 1.8rem;
+    border: 3px solid #7d98a1;
+    margin-bottom: 20px;
+    font-family: 'Akshar', sans-serif;
+    
+}
+
+.mitrabajo:hover{
+    border: 5px solid black;
+    
+}
+
+@media (max-width: 1124px){
+    .presentacion{
+        width: 80%;
+    }
+    .servicios{
+        width: 80%;
+    }
+    .escritorio{
+        width: 350px;
+        border: 3px solid black;
+    }
+    .cotizacion{
+        margin-bottom: 15px;
+    }
+    
+    }
+
+@media (max-width: 758px){
+    .presentacion{
+        flex-direction: column;
+        align-items: center;
+    }
+    .escritorio{
+        width: 300px;
+        border: 3px solid black;
+    }
+    .cotizacion{
+        margin-bottom: 15px;
+    }
+    
+}
+@media (max-width:600px){
+    .amenu{
+        font-size: 1rem;
+    }
+}
+@media (max-width:400px){
+    .escritorio{
+        width: 230px;
+    }
+    .amenu{
+        font-size: 0.8rem;
+    }
+}
+.amenu:hover{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    color: black;
+}
+.cotizacion:hover{
+    background-color: black;
+    color: white;
+}
+@keyframes cambiar-color {
+    from{
+        color: black;
+    }
+    to{
+        color: grey;
+    }
+}
+
+@media (max-width:1012px ){
+    .ventajas{
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+    }
+    .mitrabajo{
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .mitrabajo2{
+        height: auto;
+        text-align: center;
+    }
+}
+.clientes{
+    width: 90%;
+    height: 600px;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px;
+    font-family: 'Akshar', sans-serif;
+
+}
+.card-img-top{
+    height: 300px;
+}
+.contacto{
+    width: 100%;
+    display: flex;
+    border-top: 5px solid lightgray;
+    padding: 40px;
+    border-bottom: 5px solid lightgray;
+    font-family: 'Akshar', sans-serif;
+}
+.contacto h3{
+    font-size: 2rem;
+}
+.redes{
+    width: 50%;
+    justify-content: space-around;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Akshar', sans-serif;
+}
+.redes a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+svg{
+    margin-right: 15px;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #C4DDE6;
+    align-items: center;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.footer p{
+    font-family: 'Akshar';
+}
+.firma{
+    font-size: 2rem;
+    font-weight: 600;
+}
+@media (max-width: 1200px){
+    .clientes{
+        flex-direction: column;
+        height: auto;
+    }
+
+}
+@media (max-width: 928px){
+    .contacto{
+        flex-direction: column;
+        align-items: center;
+    }
+}
