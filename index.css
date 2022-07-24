@@ -434,6 +434,12 @@ svg {
     .redes{
         gap: 20px;
     }
+    .primera {
+        background-image: url(fondobi.jpg);
+        padding: 10px;
+        background-size: contain;
+        background-repeat: repeat;
+       }
 }
 @media (max-widht:500px){
     .card{
