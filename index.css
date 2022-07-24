@@ -1,121 +1,133 @@
-body{
+body {
     font-family: 'Akshar', sans-serif;
     margin: 0;
-    background-color: black;
 }
-.menu{
+.primera {
+    background-image: url(fondobi.jpg);
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.menu {
     display: flex;
     width: 100%;
+    height: 120px;
     justify-content: space-around;
-    background-color: #121313;
+    background-color: black;
     align-items: center;
-    margin-bottom: 50px;
     border-bottom: 3px solid lightgray;
     font-family: 'Akshar', sans-serif;
 }
-.logo{
+
+.logo {
     width: 100px;
 }
-.amenu{
+
+nav {
+    display: flex;
+    box-sizing: border-box;
+    gap: 30px;
+}
+
+.amenu {
     text-decoration: none;
     color: white;
     font-size: 1.5rem;
     font-weight: 500;
-    padding: 15px;
+    padding: 10px;
     font-family: 'Akshar', sans-serif;
+
 }
 
-.presentacion{
+.presentacion {
     display: flex;
     width: 70%;
     justify-content: space-around;
-    
     margin: auto;
     border-radius: 0px;
-    padding: 15px;
+    padding: 35px;
     box-sizing: border-box;
-    background-image: url(cool-background.png);
+
     font-family: 'Akshar', sans-serif;
 }
-.escritorio{
+
+.escritorio {
     width: 400px;
     border: 5px solid black;
 }
-.slogan{
+
+.slogan {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     font-family: 'Akshar', sans-serif;
 }
-h1{
+
+h1 {
     text-align: center;
-    
-    font-weight: 600;
+    font-size: 3rem;
     font-family: 'Akshar', sans-serif;
 }
-h2{
+
+h2 {
     text-align: center;
     font-size: 2rem;
     font-family: 'Akshar', sans-serif;
 }
-.cotizacion{
-    text-decoration: none;
-    color: black;
-    font-size: 1.5rem;
-    padding: 10px;
-    background-color: whitesmoke;
-    border-radius: 8px;
-    font-family: 'Akshar', sans-serif;
-}
-.servicios{
+
+.servicios {
     display: flex;
     width: 80%;
     flex-direction: column;
     justify-content: space-around;
-    background-color: #C4DDE6;
     margin: auto;
     margin-top: 30px;
-    border-radius: 20px;
     padding: 15px;
     box-sizing: border-box;
     font-size: 1.8rem;
     text-align: center;
-    margin-bottom: 30px;
-    border: 5px solid lightgray;
+    margin-bottom: 50px;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
     font-family: 'Akshar', sans-serif;
 }
-h3{
+
+h3 {
     color: black;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     animation: cambiar-color;
     animation-duration: 2s;
+    margin-top: 20px;
     animation-iteration-count: infinite;
     font-family: 'Akshar', sans-serif;
 }
-.ventajas{
-    background: rgb(196,221,230);
-    background: linear-gradient(180deg, rgba(196,221,230,1) 36%, rgba(69,75,86,1) 83%);
+
+.ventajas {
+    /*background: #ff758f;
+    background: radial-gradient(circle farthest-corner at bottom center, #ff758f 0%, #f4d6e7 90%);
+    background: -webkit-radial-gradient(circle farthest-corner at bottom center, #ff758f 0%, #f4d6e7 90%);
+    background: -moz-radial-gradient(circle farthest-corner at bottom center, #ff758f 0%, #f4d6e7 90%);*/
     display: flex;
     width: 80%;
     height: 400px;
     justify-content: space-around;
     align-items: center;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 10px;
     border-radius: 20px;
     padding: 15px;
     box-sizing: border-box;
     font-size: 1.8rem;
     text-align: center;
     margin-bottom: 30px;
-    border: 5px solid lightgray;
     font-family: 'Akshar', sans-serif;
 }
-.ventajas2{
-    background: rgb(196,221,230);
-    background: linear-gradient(180deg, rgba(196,221,230,1) 36%, rgba(69,75,86,1) 83%);
+
+.ventajas2 {
+    background-color: rgba(255, 255, 255, 0.411);
     display: flex;
     width: 90%;
     flex-direction: column;
@@ -127,11 +139,12 @@ h3{
     box-sizing: border-box;
     font-size: 1.8rem;
     margin-bottom: 50px;
-    border: 5px solid lightgray;
+    border: 4px solid whitesmoke;
     font-family: 'Akshar', sans-serif;
 }
-.mitrabajo{
-    background-color:white;
+
+.mitrabajo {
+    background-color: rgba(255, 255, 255, 0.274);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -143,13 +156,14 @@ h3{
     box-sizing: border-box;
     font-size: 1.8rem;
     text-align: center;
-    border: 3px solid #7d98a1;
+    border: 3px solid whitesmoke;
     align-items: center;
     font-family: 'Akshar', sans-serif;
-    
+
 }
-.mitrabajo2{
-    background-color:white;
+
+.mitrabajo2 {
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -160,100 +174,54 @@ h3{
     padding: 15px;
     box-sizing: border-box;
     font-size: 1.8rem;
-    border: 3px solid #7d98a1;
     margin-bottom: 20px;
     font-family: 'Akshar', sans-serif;
-    
+
 }
 
-.mitrabajo:hover{
-    border: 5px solid black;
-    
+.mitrabajo:hover {
+    border: 2px solid black;
+
 }
 
-@media (max-width: 1124px){
-    .presentacion{
-        width: 80%;
-    }
-    .servicios{
-        width: 80%;
-    }
-    .escritorio{
-        width: 350px;
-        border: 3px solid black;
-    }
-    .cotizacion{
-        margin-bottom: 15px;
-    }
-    
-    }
 
-@media (max-width: 758px){
-    .presentacion{
-        flex-direction: column;
-        align-items: center;
-    }
-    .escritorio{
-        width: 300px;
-        border: 3px solid black;
-    }
-    .cotizacion{
-        margin-bottom: 15px;
-    }
-    
-}
-@media (max-width:600px){
-    .amenu{
-        font-size: 1rem;
-    }
-}
-@media (max-width:400px){
-    .escritorio{
-        width: 230px;
-    }
-    .amenu{
-        font-size: 0.8rem;
-    }
-}
-.amenu:hover{
+
+.amenu:hover {
     background-color: whitesmoke;
-    border-radius: 8px;
+    border-radius: 3px;
     color: black;
 }
-.cotizacion:hover{
-    background-color: black;
-    color: white;
-}
+
 @keyframes cambiar-color {
-    from{
+    from {
         color: black;
     }
-    to{
+
+    to {
         color: grey;
     }
 }
 
-@media (max-width:1012px ){
-    .ventajas{
-        width: 90%;
-        height: auto;
-        flex-direction: column;
-    }
-    .mitrabajo{
-        width: 90%;
-        height: auto;
-        margin-bottom: 20px;
-    }
-    .mitrabajo2{
-        height: auto;
-        text-align: center;
-    }
-}
-.clientes{
-    width: 90%;
-    height: 600px;
-    display: flex;
+
+
+.segunda {
     background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 26px 18px rgba(250, 165, 181, 0.75) inset;
+    -webkit-box-shadow: 0px 0px 26px 18px rgba(250, 165, 181, 0.75) inset;
+    -moz-box-shadow: 0px 0px 26px 18px rgba(250, 165, 181, 0.75) inset;
+}
+
+.segunda h4 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.clientes {
+    width: 90%;
+    height: 500px;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     margin: auto;
@@ -261,38 +229,87 @@ h3{
     font-family: 'Akshar', sans-serif;
 
 }
-.card-img-top{
-    height: 300px;
+
+.card {
+    width: 22%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 4px;
 }
-.contacto{
-    width: 100%;
-    display: flex;
-    border-top: 5px solid lightgray;
-    padding: 40px;
-    border-bottom: 5px solid lightgray;
-    font-family: 'Akshar', sans-serif;
-}
-.contacto h3{
-    font-size: 2rem;
-}
-.redes{
-    width: 50%;
-    justify-content: space-around;
-    height: 300px;
+.card-body{
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.card h5{
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+.card p{
+    
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+.card-img-top {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+.btn{
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 4px;
+    width: 60px;
+    font-size: 1.2rem;
+    background-color: #ff758f;
+}
+.btn:hover{
+    border: 1px solid black;
+    background-color: #fca4b4;
+}
+.contacto {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 5px solid lightgray;
+    font-family: 'Akshar', sans-serif;
+    justify-content: center;
+}
+
+.contact {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.redes {
+    width: 80%;
+    justify-content: space-around;
+    padding: 30px;
+    display: flex;
     align-items: center;
     font-family: 'Akshar', sans-serif;
+    box-sizing: border-box;
 }
-.redes a{
+
+.redes a {
     text-decoration: none;
     color: black;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
-svg{
+
+svg {
     margin-right: 15px;
 }
-.footer{
+
+.footer {
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -301,24 +318,134 @@ svg{
     border-top: 3px solid black;
     border-bottom: 3px solid lightgray;
 }
-.footer p{
+
+.footer p {
     font-family: 'Akshar';
     color: white;
 }
-.firma{
+
+.firma {
     font-size: 2rem;
     font-weight: 400;
 }
-@media (max-width: 1200px){
-    .clientes{
-        flex-direction: column;
-        height: auto;
+
+@media (max-width: 1124px) {
+    .presentacion {
+        width: 80%;
+    }
+
+    .servicios {
+        width: 80%;
+    }
+
+    .escritorio {
+        width: 350px;
+        border: 3px solid black;
+    }
+
+    .cotizacion {
+        margin-bottom: 15px;
     }
 
 }
-@media (max-width: 928px){
-    .contacto{
+@media (max-width:1012px) {
+    .ventajas {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .mitrabajo {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .mitrabajo2 {
+        height: auto;
+        text-align: center;
+    }
+}
+@media (max-width: 928px) {
+    .contacto {
         flex-direction: column;
         align-items: center;
+    }
+    .card{
+        width: 40%;
+        
+        margin-bottom: 20px;
+    }
+    .card-img-top{
+        object-fit: cover;
+        height: 200px;
+    }
+    .clientes {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .segunda h4{
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 758px) {
+    .presentacion {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .escritorio {
+        width: 300px;
+        border: 3px solid black;
+    }
+
+    .cotizacion {
+        margin-bottom: 15px;
+    }
+    .card{
+        width: 45%;
+        margin-bottom: 20px;
+        
+    }
+    .card-img-top{
+        object-fit: cover;
+        height: 180px;
+    }
+    .redes{
+        width: 100%;
+    }
+}
+
+@media (max-width:600px) {
+    .amenu {
+        font-size: 1rem;
+    }
+    .clientes{
+        flex-direction: column;
+    }
+    .card{
+        width: 60%;
+    }
+    .card-img-top{
+        height: 100%;
+    }
+    .redes{
+        gap: 20px;
+    }
+}
+@media (max-widht:500px){
+    .card{
+        
+    }
+}
+@media (max-width:400px) {
+    .escritorio {
+        width: 230px;
+    }
+
+    .amenu {
+        font-size: 0.8rem;
     }
 }
