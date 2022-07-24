@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 .primera {
-    background-image: url(fondobi.jpg);
+    background-image: url(pink-background-g2d38a0229_1920.jpg);
     padding: 20px;
     background-size: cover;
     background-position: center;
@@ -19,10 +19,16 @@ body {
     align-items: center;
     border-bottom: 3px solid lightgray;
     font-family: 'Akshar', sans-serif;
+    box-shadow: 0px 8px 5px 0px rgba(252,164,180,0.75) inset;
+-webkit-box-shadow: 0px 8px 5px 0px rgba(252,164,180,0.75) inset;
+-moz-box-shadow: 0px 8px 5px 0px rgba(252,164,180,0.75) inset;
 }
 
 .logo {
     width: 100px;
+}
+.logo-footer{
+    height: 80px;
 }
 
 nav {
@@ -46,7 +52,6 @@ nav {
     width: 70%;
     justify-content: space-around;
     margin: auto;
-    border-radius: 0px;
     padding: 35px;
     box-sizing: border-box;
     font-family: 'Akshar', sans-serif;
@@ -63,6 +68,7 @@ nav {
     align-items: center;
     justify-content: space-around;
     font-family: 'Akshar', sans-serif;
+    
 }
 
 h1 {
@@ -86,7 +92,8 @@ h2 {
     margin-top: 0px;
     padding: 15px;
     box-sizing: border-box;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
+    
     text-align: center;
     margin-bottom: 50px;
     border-bottom: 4px solid black;
@@ -263,7 +270,7 @@ h3 {
     border-radius: 4px;
     width: 60px;
     font-size: 1.2rem;
-    background-color: #ff758f;
+    background-color: rgb(255, 0, 179);
 }
 .btn:hover{
     border: 1px solid black;
@@ -311,8 +318,11 @@ svg {
     justify-content: space-around;
     background-color: black;
     align-items: center;
-    border-top: 3px solid black;
+    
     border-bottom: 3px solid lightgray;
+    box-shadow: 0px 8px 5px 0px rgba(252,164,180,0.75) inset;
+-webkit-box-shadow: 0px 8px 5px 0px rgba(252,164,180,0.75) inset;
+-moz-box-shadow: 0px 8px 5px 0px rgba(252,164,180,0.75) inset;
 }
 
 .footer p {
@@ -422,7 +432,7 @@ svg {
         flex-direction: column;
     }
     .card{
-        width: 60%;
+        width: 70%;
     }
     .card-img-top{
         height: 100%;
